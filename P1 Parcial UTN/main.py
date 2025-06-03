@@ -44,7 +44,6 @@ def main():
         elif opcion == "7":
             os.system("cls")
             print(">> Jurado más estricto")
-            print("-") * 50
             juez_estricto(puntajes_j1, puntajes_j2, puntajes_j3)
 
         elif opcion == "8":
